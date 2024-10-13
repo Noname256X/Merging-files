@@ -98,8 +98,8 @@ int main() {
     setlocale(LC_ALL, "ru");
     SetConsoleOutputCP(1251);
 
-    string directory_input = "C:/Users/fodea/Desktop/обработка/Файлы для обработки";
-    string path_output = "C:/Users/fodea/Desktop/обработка/allPass.txt";
+    string directory_input = "the path to the file folder";
+    string path_output = "the path to save the processed file";
 
     Merging_files(directory_input, path_output);
     return 0;
